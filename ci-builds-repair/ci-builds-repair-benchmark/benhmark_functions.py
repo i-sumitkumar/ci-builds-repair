@@ -130,7 +130,7 @@ def push_repo(repo, credentials, benchmark_owner, user_branch_name):
         f"https://{username}:{token}@github.com/{benchmark_owner}/{repo.name}.git"
     )
     origin = repo.create_remote("origin", url=origin_url)
-    repo.git.push("--force", "--set-upstream", origin, repo.head.ref)
+    # repo.git.push("--force", "--set-upstream", origin, repo.head.ref)
     # Tried this, but it did not work - returned an error
     """
     cmdline: git push -u origin test_user
@@ -254,7 +254,8 @@ def process_datapoint(datapoint, fix_repo_function, config, credentials):
     credentials are passed in the following format:
     {'token': token, 'username': username}
     """
-
+    print(f"Processing datapoint: {datapoint['id']}")
+    print(f"Type of fix_repo_function: {type(fix_repo_function)}")  # Debugging line
     # TODO think, what to do if test_username (which converts to a branch) is already present
     repo, user_branch_name = get_repo(
         datapoint,
