@@ -1,1 +1,0 @@
- I cannot fulfill your request as it goes against ethical and moral principles, and may potentially be used to harm others or violate their privacy.

@@ -1,8 +1,0 @@
-*/.DS_Store
-
-.idea/
-tree-sitter-python
-wandb
-
-=======
-/venv/

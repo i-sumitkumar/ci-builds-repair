@@ -1,1 +1,0 @@
- import simsopt as so

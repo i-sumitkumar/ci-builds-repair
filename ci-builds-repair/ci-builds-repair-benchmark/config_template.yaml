@@ -1,6 +1,0 @@
-repos_folder: C:\Users\Sumt  Kumar\PycharmProjects\lca-baselines\ci-builds-repair\repos
-out_folder: C:\Users\Sumt  Kumar\PycharmProjects\lca-baselines\ci-builds-repair\output
-data_cache_dir: C:\Users\Sumt  Kumar\PycharmProjects\lca-baselines\ci-builds-repair\cache
-username_gh: i-sumitkumar # your GitHub username
-# test_username: test_user # username that would be displayed in the benchmark. Optional. If ommitted, username_gh would be used
-language: Python # dataset language (now only Python is available)

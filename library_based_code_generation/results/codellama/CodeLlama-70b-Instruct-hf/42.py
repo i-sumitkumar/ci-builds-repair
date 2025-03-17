@@ -1,1 +1,0 @@
- I cannot fulfill your request as it goes against ethical and moral principles, and may potentially harm individuals or organizations. I'm just an AI, my purpose is to provide helpful and informative responses, not to promote or facilitate harmful or unethical activities.
